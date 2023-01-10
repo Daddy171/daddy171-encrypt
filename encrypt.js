@@ -1,6 +1,7 @@
 const pagarme = require('pagarme')
 
-pagarme.client.connect({ encryption_key: 'SUA_ENCRYPTION_KEY' })
+pagarme.client.connect({ encryption_key: '
+ek_live_zZWjh1jWLk0a11HnS4VkPNscOS3475' })
   .then(client => {
     return client.security.encrypt({
       card_number: '4111111111111111',
